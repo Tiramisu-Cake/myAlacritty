@@ -1,0 +1,31 @@
+# 1) Корневой формат: перечисляем модули в том порядке, в каком хотим их видеть
+format = "$username $directory $git_branch$git_state $character"
+
+# 2) Настройки модуля username
+[username]
+format = "[$user]($style) "
+show_always = true
+
+# 3) Настройки модуля directory
+[directory]
+truncation_length = 3
+# Здесь не нужно format — будет использован стандартный "[$path]($style)"
+
+# 4) Ветка Git
+[git_branch]
+symbol = " "
+format = "[$symbol$branch]($style) "
+
+# 5) Состояние Git (rebase/merge)
+[git_state]
+format = "[$state( $progress)]($style) "
+
+# 6) Символ приглашения
+[character]
+success_symbol = "[✔](green) "
+error_symbol   = "[✖](red) "
+
+# 7) Выключаем Python-модуль (убираем “via vX.Y.Z”)
+[python]
+disabled = true
+

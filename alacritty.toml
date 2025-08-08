@@ -32,6 +32,7 @@ bindings = [
 
 [env]
 TERM = "tmux-256color"
+STARSHIP_CONFIG = "/home/tiramisu-cake/.config/alacritty/starship.toml"
 
 [terminal]
 osc52 = "CopyPaste"
