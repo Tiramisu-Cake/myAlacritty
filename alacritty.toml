@@ -20,7 +20,7 @@ offset = { x = 1, y = 0 }
 [window]
 blur = false
 decorations = "none"
-opacity = 0.8
+opacity = 0.6 
 
 [window.padding]
 x = 8
@@ -32,11 +32,11 @@ bindings = [
 
 [env]
 TERM = "tmux-256color"
-STARSHIP_CONFIG = "/home/tiramisu-cake/.config/alacritty/starship.toml"
+STARSHIP_CONFIG = "/home/tiramisu_cake/.config/alacritty/starship.toml"
 
 [terminal]
 osc52 = "CopyPaste"
 
 [terminal.shell]
-program = "/usr/local/bin/tmux"
-args = ["-f", "/home/tiramisu-cake/.config/alacritty/.tmux.conf", "new-session", "-A", "-s", "terminal"]
+program = "/usr/bin/tmux"
+args = ["-f", "/home/tiramisu_cake/.config/alacritty/.tmux.conf", "new-session", "-A", "-s", "terminal"]
