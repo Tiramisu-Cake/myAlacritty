@@ -17,6 +17,7 @@ show_always = true
 [directory]
 style = "bg:#3A7AFE fg:#ffffff"
 truncation_length = 0
+truncate_to_repo = false
 read_only = "  "
 read_only_style = "bg:#3A7AFE fg:#ffffff"
 # "Пилюля" с помощью powerline-глифов
