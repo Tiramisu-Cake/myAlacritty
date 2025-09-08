@@ -9,8 +9,16 @@ white = "0xABB2BF"
 yellow = "0xE5C07B"
 
 [colors.primary]
-background = "0x000000"
-foreground = "0xF8F8F8"
+background = "#1d2021" # или "#282828" / "#32302f"
+foreground = "#ebdbb2"
+
+[colors.selection]
+text = "#ebdbb2"
+background = "#3c3836"
+
+[colors.cursor]
+text = "#1d2021"
+cursor = "#ebdbb2"
 
 [font]
 normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
